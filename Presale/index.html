@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+		<link rel="stylesheet" href="assets/css/style.min.css" />
+		<title>Presale Betcoin</title>
+	</head>
+	<body>
+		<div class="header">
+			<div class="logo">
+				<img src="assets/img/logo.png" width="70" alt="" />
+				<h3>Betcoin . Finance</h3>
+			</div>
+			<div class="nav">
+				<ul>
+					<li><button id="btn_connect">Connect</button></li>
+				</ul>
+				<p>Tokens in wallet: <span id="wallet_balance">0</span> BETC</p>
+			</div>
+		</div>
+		<div class="content">
+			<h2>Make your crypto BETC</h2>
+			<h2>Presale</h2>
+			<p>Buy betcoins with BNB</p>
+			<div class="form-inputs">
+				<div class="form-field">
+					<img src="assets/img/bnb.png" alt="" />
+					<input id="inp_bnb" type="text" maxlength="6" />
+				</div>
+				<i class="fas fa-chevron-right"></i>
+				<div class="form-field">
+					<img src="assets/img/coin.png" alt="" />
+					<input id="inp_climb" type="text" maxlength="6" />
+				</div>
+			</div>
+			<button id="btn_swap">Swap</button>
+			<div class="status">
+				<p><span id="contract_balance">0</span> Betcoin Sold</p>
+				<div class="prog">
+					<div class="full"></div>
+					<div class="percent"></div>
+				</div>
+				<div class="values">
+					<p>0 Betcoin</p>
+					<p>20,000 Betcoin</p>
+				</div>
+			</div>
+		</div>
+		<div class="footer">
+			<ul>
+				<li>
+					<a href="#" target="_blank"><i class="fab fa-medium-m"></i></a>
+				</li>
+				<li>
+					<a href="#" target="_blank"><i class="fab fa-telegram-plane"></i></a>
+				</li>
+				<li>
+					<a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+				</li>
+				<li>
+					<a href="#" target="_blank"><img src="assets/img/gitbook.png" /></a>
+				</li>
+				<li>
+					<a href="#"><i class="fas fa-envelope"></i></a>
+				</li>
+			</ul>
+		</div>
+		<div class="loader active">
+			<img src="assets/img/loader.png" alt="" />
+			<p>Loading...</p>
+		</div>
+		<div class="alert_list"></div>
+
+		<script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+		<script src="assets/script/script.min.js"></script>
+	</body>
+</html>
